@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url(img/pexels-stywo-1261728.jpg);
+    background-size: cover;
+}
+.glass {
+    min-width: 40%;
+    min-height: 0.5vh;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    padding: 40px; /* Aumenté el tamaño del padding */
+    text-align: center;
+}
+input {
+    width:  90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+button {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff7e5f;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #feb47b;
+}
